@@ -20,7 +20,7 @@ sub gen_completion {
     my %fargs = @_;
     sub {
         my %cargs = @_;
-        complete_firefox_profile_name(%cargs, %fargs);
+        complete_chrome_profile_name(%cargs, %fargs);
     };
 }
 
